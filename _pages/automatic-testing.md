@@ -93,6 +93,7 @@ A test case file understand the following json keywords:
 |expected_response|Assert that the skill speaks a response that matches this regular expression|
 |expected_dialog|Assert that the skill responds with a response from a certain dialog file|
 |expected_data|Assert that a message is sent with the expected data. Takes a sub dictionary as argument|
+|responses|List of responses from the "user" to `get_response()` calls in the skill|
 |evaluation_timeout|The default timeout is 30 seconds. If a skill takes longer than this to finish, the evaluation_timeout can be set|
 |changed_context|Assert that a list of contexts was set or removed|
 |assert|Assert that a rule, expressed in the internal test rummer format, is true|
